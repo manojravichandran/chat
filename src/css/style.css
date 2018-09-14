@@ -1,0 +1,61 @@
+body
+{
+    font:20px  Comic Sans MS;
+    color: rgb(14, 1, 1)
+    text-align:center;
+    padding:35px;
+    
+}
+form,p,span{
+    margin:0;
+    padding:0;
+
+}
+input {font:12px arial;}
+a{
+    color:rgb(137, 161, 238)
+    a:hover{text-decoration:italic;}
+}
+
+#wrapper,#loginform{
+    margin:0 auto;
+    padding-bottom:20px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    
+    background-blend-mode: soft-light,screen;
+    width:800px;
+    height:600px;
+    border:1px solid rgb(70, 77, 185);}
+}
+#loginform{padding-top: 20px;}
+#loginform p {margin:10px;}
+#chatbox{
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("q.jpg");
+    height: 500px;
+    width: 750px;
+    border:0.2px solid white;
+    overflow: auto;
+}
+#usermsg{
+    height:40px;
+    width: 700px;
+    border:3px solid gray;
+}
+#submit{font:12px  Comic Sans MS; }
+.error{color: maroon}
+#menu{padding: 12px 25px 12px 25px;}
+.welcome{float: left; color:rgb(12, 0, 14) ;}
+.logout {float: right;  }
+input.search{
+    background-color: palegreen;
+    border:1em;
+    color:rgb(17, 16, 16);
+    width:80px;
+    height:40px;
+}
+}
+
+}
